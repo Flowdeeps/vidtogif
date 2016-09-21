@@ -155,4 +155,4 @@ echo "Cleaning up temporary image file directory"
 rm -rf /tmp/frames
 
 SIZE=`ls -lah $GIFPATH | awk '{ print $5}'`
-echo "${GREEN}Gif ($SIZE) ready at $GIFPATH"
+echo "${GREEN}Gif ($SIZE) ready at $GIFPATH${NORMAL}"
